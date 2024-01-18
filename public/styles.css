@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main-container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 3px black solid;
+    align-items: end;
+}
+form{
+    width: 80%;
+}
+#input{
+    width: 75%;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+
+}
+#formButton{
+    width: 20%;
+    font-size: medium;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    border: 1px dashed white;
+   
+}
