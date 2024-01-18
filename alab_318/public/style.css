@@ -1,0 +1,24 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+#main-container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#send-container{
+    margin-top: 80vh;
+}
+#message{
+    width: 80vh;
+    height: 5vh;
+}
+#sendButton{
+    width: 20vh;
+    height: 5vh;
+    color: blue;
+    background-color: aliceblue;
+    border: 3px dashed blue;
+}
